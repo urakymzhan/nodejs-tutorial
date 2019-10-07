@@ -46,9 +46,9 @@ NODE is not a programming language nor framework
 // create a new module logger.js inside node-tutorial folder\
 // see file content for code \
 // by using module.exports we are exporting one or more members etc. and use them in our first module app.js by using require() \
-\
-> in order to excape overriding variables use const instead of var\
-\
+
+> in order to excape overriding variables use const instead of var
+
 // Node use module wrapper function (self invoked function) to wrap function etc. And it has exports, module, require etc arguments.\
 // to check write ```console.log(__filename)```, ```console.log(dirname)``` etc inside logger.js and run on terminal"
 ```node logger.js ```\
