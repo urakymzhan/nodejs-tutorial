@@ -10,7 +10,6 @@ NODE is not a programming language nor framework
 // on terminal run\
 ``` node --version```\
 \
-\
 // regardless go to nodejs.org and download LTS version of node\
 // or \
 // on terminal run:\
@@ -19,14 +18,12 @@ NODE is not a programming language nor framework
 ```nvm deactivate```\
 ```nvm uninstall OLD_VERSION```\
 \
-\
 // create a folder\
 ```mkdir node-tutorial```\
 // open that folder in vscode or any other editor\
 ``` code . ```\
 // add a new file inside vs app.js\
 // for code look app.js content that located on the same location\
-\
 \
 // to run the file\
 // on terminal (inside node-tutorial folder):\
