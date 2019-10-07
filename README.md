@@ -45,7 +45,7 @@ NODE is not a programming language nor framework
 \
 // create a new module logger.js inside node-tutorial folder\
 // see file content for code \
-// by using module.exports we are exporting one or more members etc. and use them in our first module app.js by using require() \
+// by using module.exports we are exporting one or more members etc. and use them in our first module app.js by using require() 
 
 > in order to excape overriding variables use const instead of var
 
@@ -79,6 +79,6 @@ NODE is not a programming language nor framework
 // go to nodesjs.org > docs > modules > HTTP\
 // we will practice http.createServer method\
 // look for Example10 in logger.js file for how it works\
-\
+
 > END
-\
+
