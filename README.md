@@ -32,12 +32,10 @@ NODE is not a programming language nor framework
 // on terminal (inside node-tutorial folder):\
 ``` node app.js ```\
 \
-\
 // Like in DOM/Browser when we create variables they assigned to global scope (window).\
 // try running on Console:\
 ```window.console.log```\
 ```window.setTimeout ```\
-\
 \
 // In nodejs we have modules. If we created a varibale it is only avaibale inside that module.\
 // We should avoid creating variable on global scope.\
@@ -45,24 +43,19 @@ NODE is not a programming language nor framework
 ```node app.js```\
 // you will see every module has id, path, filename, exports etc.. \
 \
-\
 // create a new module logger.js inside node-tutorial folder\
 // see file content for code \
 // by using module.exports we are exporting one or more members etc. and use them in our first module app.js by using require() \
 \
-\
-> in order to excape overriding variables use const instead of var
-\
+> in order to excape overriding variables use const instead of var\
 \
 // Node use module wrapper function (self invoked function) to wrap function etc. And it has exports, module, require etc arguments.\
 // to check write ```console.log(__filename)```, ```console.log(dirname)``` etc inside logger.js and run on terminal"
 ```node logger.js ```\
 \
-\
 // go to nodesjs.org > docs > modules > Path\
 // we will practice path.parse method\
 // look for Example5 in logger.js file for how it works\
-\
 \
 // go to nodesjs.org > docs > modules > OS\
 // we will practice os.totalmem and os.freemem methods\
@@ -76,7 +69,6 @@ NODE is not a programming language nor framework
 // we will practice os.totalmem and os.freemem methods\
 // look for Example6 in logger.js file for how it works\
 \
-\
 // in Example9 we modified some code\
 // the reason for that in real life we don't use events directly \
 // instead we create a class and use from it\
@@ -84,10 +76,9 @@ NODE is not a programming language nor framework
 // also moved const EventEmitter = require('events'); from app.js to logger.js\
 // const emitter = new EventEmitter(); can be deleted in logger.js but in app.js it is used in Example8. (you don't need it in Example9 though which is the right way to do)\
 \
-\
 // go to nodesjs.org > docs > modules > HTTP\
 // we will practice http.createServer method\
 // look for Example10 in logger.js file for how it works\
 \
-\
 > END
+\
